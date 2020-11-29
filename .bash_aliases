@@ -1,3 +1,5 @@
+alias laa='ls -d .*'
+
 alias nf='neofetch'
 alias op='openvpn'
 alias pv='protonvpn'
@@ -17,7 +19,7 @@ alias x='exit'
 alias shutdown='sudo shutdown now'
 
 alias rm='rm -v'
-alias rmd='rm -rfv'
+alias rmd='sudo rm -rfv'
 
 alias pingg='ping -c 3 www.google.com && sleep 5 && clear'
 
@@ -27,7 +29,13 @@ alias autoremove='sudo apt autoremove'
 alias inst='sudo apt install'
 alias purge='sudo apt --purge remove'
 
+alias eba='nano /home/quan7um/.bash_aliases'
+alias eb='nano /home/quan7um/.bashrc'
+alias en='sudo nano /etc/nanorc'
+
 alias hist='history|grep'
 alias pros='ps aux |grep'
 
 alias mkexec='chmod +x'
+
+alias untar='sudo tar zvxf'
