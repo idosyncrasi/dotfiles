@@ -29,8 +29,8 @@ alias autoremove='sudo apt autoremove'
 alias inst='sudo apt install'
 alias purge='sudo apt --purge remove'
 
-alias eba='nano /home/quan7um/.bash_aliases'
-alias eb='nano /home/quan7um/.bashrc'
+alias eba='nano ~/.bash_aliases'
+alias eb='nano ~/.bashrc'
 alias en='sudo nano /etc/nanorc'
 
 alias hist='history|grep'
