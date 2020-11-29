@@ -1,10 +1,14 @@
 alias laa='ls -d .*'
 
-alias nf='neofetch'
 alias op='openvpn'
 alias pv='protonvpn'
+alias spv='sudo protonvpn'
+alias rpv='pv r'
+alias upv='sudo pip3 install protonvpn-cli --upgrade'
+
 alias python='python3'
 alias py='python'
+alias nf='neofetch'
 
 alias cls='clear'
 alias clea='clear'
