@@ -170,4 +170,4 @@ xterm*|rxvt*)
     ;;
 esac
 
-export PATH=$PATH:/home/quan7um/bin
+export PATH=$PATH:~/bin
