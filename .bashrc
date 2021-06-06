@@ -62,6 +62,9 @@ fi
 
 if [ "$color_prompt" = yes ]; then
     PS1="\[$(tput bold)\]\[\033[1;35m\]\u\[$(tput sgr0)\]:\[$(tput sgr0)\]\[$(tput bold)\]\[\033[38;5;4m\]\w\[$(tput sgr0)\]>\\$ \[$(tput sgr0)\]"
+
+	# Alternative prompt with hostname
+	#PS1="\[$(tput bold)\]\[\033[38;5;13m\]\u\[$(tput sgr0)\]@\[$(tput sgr0)\]\[\033[38;5;13m\]\h\[$(tput sgr0)\]:\[$(tput sgr0)\]\[$(tput bold)\]\[\033[38;5;4m\]\w\[$(tput sgr0)\]>\\$ \[$(tput sgr0)\]"
 else
     PS1="\u:\w>\\$ \[$(tput sgr0)\]"
 fi
@@ -171,3 +174,4 @@ xterm*|rxvt*)
 esac
 
 export PATH=$PATH:~/bin
+export TERM=xterm-256color
