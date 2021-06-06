@@ -47,7 +47,7 @@ alias ckear='clear'
 # OS shit
 
 # apt stuff
-alias update='sudo apt update && sudo apt upgrade'
+alias update='sudo apt update && sudo apt -y upgrade'
 alias remove='sudo apt remove'
 alias autoremove='sudo apt autoremove'
 alias inst='sudo apt install'
