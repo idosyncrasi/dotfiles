@@ -11,14 +11,6 @@ alias close='exit'
 alias x='exit'
 alias shutdown='sudo shutdown now'
 alias reboot='sudo reboot now'
-alias xlogout='xfce4-session-logout'
-
-alias term='xfce4-terminal'
-alias ytdl='youtube-dl'
-alias signal='signal-desktop-beta'
-
-alias python='python3'
-alias py='python'
 
 alias hist='history|grep'
 alias pros='ps aux |grep'
@@ -30,10 +22,6 @@ alias cp='cp -v'
 
 alias pingg='ping -c 3 www.google.com && sleep 5 && clear'
 
-# Neofetch
-alias nf='neofetch --cpu_cores physical --cpu_speed on --disk_subtitle mount --memory_percent on --memory_unit gib'
-
-
 # Yes, these are useful
 alias cls='clear'
 alias clea='clear'
@@ -43,19 +31,43 @@ alias cler='clear'
 alias c='clear'
 alias ckear='clear'
 
+# -- -- #
 
-# OS shit
+# Applications
+
+alias nf='neofetch --cpu_cores physical --cpu_speed on --disk_subtitle mount --memory_percent on --memory_unit gib'
+
+# alias term='xfce4-terminal'
+# alias ytdl='youtube-dl'
+# alias signal='signal-desktop-beta'
+
+# alias python='python3'
+# alias py='python'
+
+# XFCE Specific
+# alias xlogout='xfce4-session-logout'
+
+# -- -- #
+
+# Distro-specific
 
 # apt stuff
-alias update='sudo apt update && sudo apt -y upgrade'
-alias remove='sudo apt remove'
-alias autoremove='sudo apt autoremove'
-alias inst='sudo apt install'
-alias purge='sudo apt --purge remove'
+# alias update='sudo apt update && sudo apt -y upgrade'
+# alias remove='sudo apt remove'
+# alias autoremove='sudo apt autoremove'
+# alias inst='sudo apt install'
+# alias purge='sudo apt --purge remove'
 
 # pacman stuff
-alias update='sudo pacman -Syu --noconfirm'
-alias remove='sudo pacman -Rscn'
-alias inst='sudo pacman -Sy'
-alias instaur='makepkg -si'
-alias purge='sudo pacman -Rsn $(pacman -Qqdt)'
+# alias update='sudo pacman -Syu --noconfirm'
+# alias remove='sudo pacman -Rscn'
+# alias inst='sudo pacman -Sy'
+# alias instaur='makepkg -si'
+# alias purge='sudo pacman -Rsn $(pacman -Qqdt)'
+
+# dnf stuff
+# alias update='sudo dnf update'
+# alias inst='sudo dnf -y install'
+# alias remove='sudo dnf remove'
+# alias autoremove='sudo dnf autoremove'
+# alias purge='sudo dnf clean'
