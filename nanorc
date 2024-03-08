@@ -157,7 +157,7 @@ set softwrap
 # set speller "aspell -x -c"
 
 ## Allow nano to be suspended.
-set suspend
+# set suspend
 
 ## Use this tab size instead of the default; it must be greater than 0.
 set tabsize 4
@@ -262,7 +262,6 @@ include "/usr/share/nano/*.nanorc"
 unbind ^T spell all
 unbind ^G help all
 
-bind ^P curpos main
 bind ^F whereis main
 bind ^Z undo main
 bind ^A redo main
