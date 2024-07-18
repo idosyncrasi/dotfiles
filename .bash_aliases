@@ -71,3 +71,10 @@ alias nf='neofetch --cpu_cores physical --cpu_speed on --disk_subtitle mount --m
 # alias remove='sudo dnf remove'
 # alias autoremove='sudo dnf autoremove'
 # alias purge='sudo dnf clean'
+
+# termux stuff
+# alias setup='pkg install ssh nmap'
+# alias inst='pkg install'
+# alias update='pkg update && pkg upgrade'
+# alias autoremove='pkg autoclean'
+# alias remove='pkg remove'
